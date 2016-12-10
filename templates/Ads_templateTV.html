@@ -1,0 +1,20 @@
+<!-- Edit this file to change the layout of each record in the table view -->
+<!-- To disable clicking of a field, remove the <%%SELECT%%> and <%%ENDSELECT%%> formatters around it-->
+
+<!--
+	If you wish to hide the table view header that contains the column titles,
+	add the following to the Ads_init() hook (in hooks/Ads.php file)
+	  $options->ShowTableHeader = 0;
+-->
+
+		<td id="Ads-CreatedOn-<%%VALUE(id)%%>" class="Ads-CreatedOn "><%%SELECT%%><%%VALUE(CreatedOn)%%><%%ENDSELECT%%></td>
+		<td id="Ads-NickName-<%%VALUE(id)%%>" class="Ads-NickName "><%%SELECT%%><%%VALUE(NickName)%%><%%ENDSELECT%%></td>
+		<td id="Ads-Sex-<%%VALUE(id)%%>" class="Ads-Sex "><%%SELECT%%><%%VALUE(Sex)%%><%%ENDSELECT%%></td>
+		<td id="Ads-Age-<%%VALUE(id)%%>" class="Ads-Age text-right"><%%SELECT%%><%%VALUE(Age)%%><%%ENDSELECT%%></td>
+		<td id="Ads-Status-<%%VALUE(id)%%>" class="Ads-Status "><%%SELECT%%><%%VALUE(Status)%%><%%ENDSELECT%%></td>
+		<td id="Ads-InterestedIn-<%%VALUE(id)%%>" class="Ads-InterestedIn "><%%SELECT%%><%%VALUE(InterestedIn)%%><%%ENDSELECT%%></td>
+		<td id="Ads-Pic1-<%%VALUE(id)%%>" class="Ads-Pic1 "><%%SELECT%%><%%VALUE(Pic1)%%><%%ENDSELECT%%></td>
+		<td id="Ads-Pic2-<%%VALUE(id)%%>" class="Ads-Pic2 "><%%SELECT%%><%%VALUE(Pic2)%%><%%ENDSELECT%%></td>
+		<td id="Ads-Pic3-<%%VALUE(id)%%>" class="Ads-Pic3 "><%%SELECT%%><%%VALUE(Pic3)%%><%%ENDSELECT%%></td>
+		<td id="Ads-MoreInfo-<%%VALUE(id)%%>" class="Ads-MoreInfo "><%%SELECT%%><%%VALUE(MoreInfo)%%><%%ENDSELECT%%></td>
+		<td id="Ads-Contact-<%%VALUE(id)%%>" class="Ads-Contact "><%%SELECT%%><%%VALUE(Contact)%%><%%ENDSELECT%%></td>
